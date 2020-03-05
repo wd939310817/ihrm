@@ -1,0 +1,9 @@
+2020-03-03 13:13:03,485 INFO [root] [__init__.py(<module>:15)] - 测试日志是否能够正常打印
+2020-03-03 13:13:03,694 INFO [root] [test_emp05_param.py(test01_login_success:36)] - 员工模块的登陆结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '3df023cc-00fa-4718-8706-e5df8df76902'}
+2020-03-03 13:13:03,694 INFO [root] [test_emp05_param.py(test01_login_success:39)] - 取出的令牌为：Bearer 3df023cc-00fa-4718-8706-e5df8df76902
+2020-03-03 13:13:03,694 INFO [root] [test_emp05_param.py(test01_login_success:43)] - 员工模块请求头为：{'Content-Type': 'application/json', 'Authorization': 'Bearer 3df023cc-00fa-4718-8706-e5df8df76902'}
+2020-03-03 13:13:03,695 INFO [root] [test_emp05_param.py(test02_add_emp:47)] - 保存在类方法的属性值{'Content-Type': 'application/json', 'Authorization': 'Bearer 3df023cc-00fa-4718-8706-e5df8df76902'}
+2020-03-03 13:13:03,775 INFO [root] [test_emp05_param.py(test02_add_emp:52)] - 添加员工接口的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1234708349492482048'}}
+2020-03-03 13:13:03,775 INFO [root] [test_emp05_param.py(test02_add_emp:59)] - 保存的员工ID为：1234708349492482048
+2020-03-03 13:13:03,919 INFO [root] [test_emp05_param.py(test02_add_emp:70)] - 要查询的SQL语句为：select username from bs_user where id = 1234708349492482048;
+2020-03-03 13:13:03,959 INFO [root] [test_emp05_param.py(test02_add_emp:75)] - SQL查询出来的结果为：('王哈哈supperstar10',)

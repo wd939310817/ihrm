@@ -1,0 +1,17 @@
+2020-03-05 11:16:33,008 INFO [root] [__init__.py(<module>:15)] - 测试日志是否能够正常打印
+2020-03-05 11:16:33,288 INFO [root] [test_login_param.py(test01_login:28)] - 参数化登陆的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'a33a4054-0d49-4745-a058-1357a4fc6a52'}
+2020-03-05 11:16:33,356 INFO [root] [test_login_param.py(test01_login:28)] - 参数化登陆的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-05 11:16:33,421 INFO [root] [test_login_param.py(test01_login:28)] - 参数化登陆的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-05 11:16:33,468 INFO [root] [test_login_param.py(test01_login:28)] - 参数化登陆的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-05 11:16:33,549 INFO [root] [test_login_param.py(test01_login:28)] - 参数化登陆的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-05 11:16:33,599 INFO [root] [test_emp05_param.py(test01_login_success:37)] - 员工模块的登陆结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '55a219cf-2e98-4f7d-874b-1b7fca66ce43'}
+2020-03-05 11:16:33,600 INFO [root] [test_emp05_param.py(test01_login_success:40)] - 取出的令牌为：Bearer 55a219cf-2e98-4f7d-874b-1b7fca66ce43
+2020-03-05 11:16:33,600 INFO [root] [test_emp05_param.py(test01_login_success:44)] - 员工模块请求头为：{'Content-Type': 'application/json', 'Authorization': 'Bearer 55a219cf-2e98-4f7d-874b-1b7fca66ce43'}
+2020-03-05 11:16:33,600 INFO [root] [test_emp05_param.py(test02_add_emp:48)] - 保存在类方法的属性值{'Content-Type': 'application/json', 'Authorization': 'Bearer 55a219cf-2e98-4f7d-874b-1b7fca66ce43'}
+2020-03-05 11:16:33,690 INFO [root] [test_emp05_param.py(test02_add_emp:53)] - 添加员工接口的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1235403800285892608'}}
+2020-03-05 11:16:33,690 INFO [root] [test_emp05_param.py(test02_add_emp:60)] - 保存的员工ID为：1235403800285892608
+2020-03-05 11:16:33,785 INFO [root] [test_emp05_param.py(test02_add_emp:71)] - 要查询的SQL语句为：select username from bs_user where id = 1235403800285892608;
+2020-03-05 11:16:33,816 INFO [root] [test_emp05_param.py(test02_add_emp:76)] - SQL查询出来的结果为：('王哈哈supperstar11',)
+2020-03-05 11:16:33,897 INFO [root] [test_emp05_param.py(test03_query_emp:87)] - 查询员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1235403800285892608', 'mobile': '18331559011', 'username': '王哈哈supperstar11', 'password': '954b63f7dff8962a16ee72afcdb1b8df', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1205026005332635648', 'timeOfEntry': '2020-02-01T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': None, 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2020-02-03T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '酱油2部', 'roleIds': [], 'staffPhoto': None}}
+2020-03-05 11:16:33,947 INFO [root] [test_emp05_param.py(test04_modify_emp:95)] - 修改员工结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1235403800285892608'}}
+2020-03-05 11:16:34,020 INFO [root] [test_emp05_param.py(test05_delete_emp:103)] - 删除员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
